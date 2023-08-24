@@ -42,11 +42,11 @@ const Search = (e) => {
 searchInput.addEventListener('keyup', Search);
 
 // Fetch JSON data and update data2 array
-fetch('../js/data.json')  // Replace with the actual path to your JSON file
+fetch('https://redaezziani.github.io/Datav2/data.json')  // Replace with the actual path to your JSON file
     .then(response => response.json())
     .then(newData => {
-        data2 = newData;  // Update the data2 array with fetched data
-        MakeList(containerList2, data2);  // Render the updated data
+        data2 = newData; 
+        MakeList(containerList2, data2); 
     })
     .catch(error => {
         console.error('Error fetching data:', error);
