@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/models.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.1/lottie.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/line-awesome/1.3.0/line-awesome/css/line-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.0.7/css/boxicons.min.css">
+    <link rel="icon" href="./assets/Bolt_Logo_VECTOR.png">
+    <title>Sanfoora</title>
+</head>
+<body>
+    <!-- nav bar  -->
+    <nav>
+        <div class="nav-logo">
+           <img class="logo" src="./assets/lightning-bolt-4138.svg" alt="" srcset="">
+           <img class="name" src="./assets/Bolt_Logo_VECTOR.png" alt="" srcset="">
+        </div>
+        <ul class="nav-link">
+            <li>
+              <a href="#">
+                Accueil
+              </a>
+            </li>
+            <li>
+                <a href="#Aprops">Apropos</a>
+            </li>
+            <li>
+                <a href="#service">Service</a>
+            </li>
+            <li>
+                <a href="#plan">Plan</a>
+            </li>
+
+            <li>
+                <div class="dropdown">
+                <div class="select">
+                    <span class="selected">Plus d'options</span>
+                    <div class="caret">
+                        <i id="caret-icon" class="bx bx-chevron-down"></i>
+                    </div>
+                </div>
+                <ul class="menu">
+                    <li>Mon compte</li>
+                    <a href="#contact">
+                      <li>Nous contacter</li>
+                  </a>
+                </ul>
+            </div></li>
+        </ul>
+        <div class="options">
+            <div class="button">
+                <a href="#contact">
+                    <button>Nous contacter</button>
+                </a>
+            </div>
+        </div>
+        <div class="toggle">
+            <i class="bx bx-menu"></i>
+        </div>
+    </nav>
+    <!-- hero section  -->
+    <main id="Aprops" class="hero">
+        <section class="hero-section-text">
+            <div class="text-title">
+                <h2>Découvrez l'excellence avec les services de livraison Sanfoora !</h2>
+            </div>
+            <div class="text-info">
+                <p>Sanfoora Delivery : Votre livraison rapide au Maroc. Fiabilité et efficacité avec Sanfoora Express. Simplifiez votre quotidien avec notre service de qualité supérieure. Choisissez la confiance de Sanfoora Express !</p>
+            </div>
+            <a href="#about">
+                <button>À propos de nous</button>
+            </a>
+            <div class="customers">
+                <div class="avatar-group">
+                    <div class="avatar">
+                      <div class="w-12">
+                        <img src="./assets/avatart.jpg" alt="Avatar 1" />
+                      </div>
+                    </div>
+                    <div class="avatar">
+                      <div class="w-12">
+                        <img src="./assets/model-1.jpg" alt="Avatar 2" />
+                      </div>
+                    </div>
+                    <div class="avatar">
+                      <div class="w-12">
+                        <img src="./assets/model-2.jpg" alt="Avatar 3" />
+                      </div>
+                    </div>
+                    <div class="avatar">
+                        <p>2k</p>
+                    </div>
+                </div>
+                <div class="rate-group">
+                    <p class="text">Nos clients satisfaits</p>
+                    <div class="rate">
+                        <i class="la la-star"></i>
+                        <span>4.9</span>
+                        <p>(1.6k avis)</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="hero-section-models">
+            <div class="svg" id="lottie-container">
+            </div>
+        </section>
+    </main>
+    
+    <!-- service section  -->
+    <div id="service" class="service">
+        <div class="card">
+            <div class="card-icon">
+                <i class="la la-truck"></i>
+            </div>
+            <div class="card-title">
+                <h3>Service de livraison</h3>
+            </div>
+            <div class="card-info">
+                <p>Sanfoora Delivery : Votre livraison rapide au Maroc. Fiabilité et efficacité avec Sanfoora Express. Simplifiez votre quotidien avec notre service de qualité supérieure. Choisissez la confiance de Sanfoora Express !</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-icon">
+                <i class="la la-clock-o"></i>
+            </div>
+            <div class="card-title">
+                <h3>Service rapide</h3>
+            </div>
+            <div class="card-info">
+                <p>Livraison ultra-rapide pour vos besoins urgents. Sanfoora Express garantit une livraison en temps record pour vous satisfaire. Optez pour la rapidité avec Sanfoora !</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-icon">
+                <i class="la la-phone"></i>
+            </div>
+            <div class="card-title">
+                <h3>Service de contact</h3>
+            </div>
+            <div class="card-info">
+                <p>Besoin d'assistance ou de renseignements ? Notre service client dévoué est prêt à vous aider. Contactez-nous dès aujourd'hui pour une assistance de première classe !</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="plan">
+        <div class="info">
+            <section class="card card-1">
+                <i class="bx bx-smile"></i>
+                <div class="nums">
+                    <div class="num" data-goal="90">0</div>
+                </div>
+                <p>Taux de satisfaction %</p>
+            </section>
+            <section class="card card-2">
+                <i class="bx bx-package"></i>
+                <div class="nums">
+                    <div class="num" data-goal="100">0</div>
+                </div>
+                <p>Commandes Livrées</p>
+            </section>
+            <section class="card card-3">
+                <i class="bx bx-like"></i>
+                <div class="nums">
+                    <div class="num" data-goal="10">0</div>
+                </div>
+                <p>Clients Satisfaits K</p>
+            </section>
+        </div>
+    </div>
+    <div id="plan" class="plan">
+      <div id="container" class="container">
+        <ul class="head">
+            <li>Vile</li>
+            <li>Prix</li>
+            <li>Dalei de livraison</li>
+        </ul>
+      </div>
+      <div class="more-ville">
+        <a href="morePlan.html">
+            <button>
+                More <i class="bx bx-chevron-right"></i>
+            </button>
+          </a>
+      </div>
+    </div>
+    <!--The contact form-->
+    <div id="contact" class="contact-us">
+        <form action="https://formspree.io/f/xleyjqyn" name="simple-contact-form" accept-charset="utf-8" method="post" class="sing-in-form">
+            <div class="say-hello">
+                <h2>Nous Contacter</h2>
+            </div>
+            <div class="input-container">
+                <input placeholder=" " type="text" name="email" id="Your-email" required>
+                <label for="Your-email">Votre Email</label>
+            </div>
+            <div class="input-container">
+                <input placeholder=" " type="text" name="name" id="Your-name" required>
+                <label for="Your-name">Votre Nom</label>
+            </div>
+            <div class="input-container">
+                <textarea placeholder=" " name="message" id="message" required></textarea>
+                <label for="message">Message</label>
+            </div>
+            <button type="submit" title="submit" id="sign-in" name="submit">Envoyer le message</button>
+        </form>
+    </div> 
+    <!--The footer -->
+    <footer class="footer">
+        <div class="footer__addr">
+            <h1 class="footer__logo">Sanfoora</h1>
+            <h2>Contact</h2>
+            <address>
+                5534 Somewhere In. The World 22193-10212<br>
+                <a class="footer__btn" href="Sanforav1@gmail.com">Nous Contacter</a>
+            </address>
+        </div>
+        <ul class="footer__nav">
+            <li class="nav__item">
+                <h2 class="nav__title">Média</h2>
+                <ul class="nav__ul">
+                    <li><a href="#">En Ligne</a></li>
+                    <li><a href="#">Imprimé</a></li>
+                    <li><a href="#">Publicités Alternatives</a></li>
+                </ul>
+            </li>
+            <li class="nav__item">
+                <h2 class="nav__title">Légal</h2>
+                <ul class="nav__ul">
+                    <li><a href="#">Politique de Confidentialité</a></li>
+                    <li><a href="#">Conditions d'Utilisation</a></li>
+                    <li><a href="#">Plan du Site</a></li>
+                </ul>
+            </li>
+        </ul>
+        <div class="legal">
+            <p>&copy; 2023 Sanfoora. Tous droits réservés.</p>
+            <div class="legal__links">
+                <span>Réalisé avec <span class="heart">♥</span> à distance de partout</span>
+            </div>
+        </div>
+    </footer> 
+    <script src="./js/model.js"></script>
+    <script src="./js/table.js"></script>
+</body>
+</html>
