@@ -39,7 +39,6 @@ const Search = (e) => {
 };
 
 
-searchInput.addEventListener('keyup', Search);
 
 var data2 = [
     {
@@ -1743,5 +1742,6 @@ var data2 = [
       "deliveryTime": "3 j-4 j"
     }
 ]
+searchInput.addEventListener('keyup', Search);
 MakeList(containerList2, data2);
 
